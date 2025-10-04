@@ -384,7 +384,7 @@
 // export default Homepage
 
 
-import { FaFacebook, FaInstagram, FaTelegramPlane, FaArrowCircleUp } from "react-icons/fa";
+import { FaInstagram, FaTelegramPlane, FaArrowCircleUp } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { FaSquareXTwitter, FaLinkedin } from "react-icons/fa6";
 import Project from "../components/Project";
@@ -539,10 +539,10 @@ function Homepage() {
                         <p className="text-base leading-relaxed text-gray-600 dark:text-gray-300 font-light mb-12 max-w-2xl">{user_info.contact.description}</p>
                     
                         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-10">
-                            <a href={user_info.socials.facebook} className="group flex items-center gap-4 p-4 rounded-xl bg-gray-50 dark:bg-gray-800/50 border border-gray-200 dark:border-gray-700 text-gray-700 dark:text-gray-300 hover:bg-blue-50 dark:hover:bg-blue-900/20 hover:border-blue-500 dark:hover:border-blue-400 hover:text-blue-600 dark:hover:text-blue-400 transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 dark:focus:ring-offset-gray-900">
+                            {/* <a href={user_info.socials.facebook} className="group flex items-center gap-4 p-4 rounded-xl bg-gray-50 dark:bg-gray-800/50 border border-gray-200 dark:border-gray-700 text-gray-700 dark:text-gray-300 hover:bg-blue-50 dark:hover:bg-blue-900/20 hover:border-blue-500 dark:hover:border-blue-400 hover:text-blue-600 dark:hover:text-blue-400 transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 dark:focus:ring-offset-gray-900">
                                 <FaFacebook className="text-xl flex-shrink-0 group-hover:scale-110 transition-transform duration-300" />
                                 <span className="font-medium">Facebook</span>
-                            </a>
+                            </a> */}
                             <a href={user_info.socials.twitter} className="group flex items-center gap-4 p-4 rounded-xl bg-gray-50 dark:bg-gray-800/50 border border-gray-200 dark:border-gray-700 text-gray-700 dark:text-gray-300 hover:bg-blue-50 dark:hover:bg-blue-900/20 hover:border-blue-500 dark:hover:border-blue-400 hover:text-blue-600 dark:hover:text-blue-400 transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 dark:focus:ring-offset-gray-900">
                                 <FaSquareXTwitter className="text-xl flex-shrink-0 group-hover:scale-110 transition-transform duration-300" />
                                 <span className="font-medium">Twitter</span>
@@ -561,11 +561,11 @@ function Homepage() {
 
                         <div className="space-y-4">
                             <a href={`mailto:${user_info.main.email}`} className="group flex items-center gap-4 p-5 rounded-xl bg-gradient-to-r from-blue-50 to-purple-50 dark:from-blue-900/20 dark:to-purple-900/20 border-2 border-blue-200 dark:border-blue-800 text-gray-700 dark:text-gray-300 hover:border-blue-500 dark:hover:border-blue-400 hover:shadow-md transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 dark:focus:ring-offset-gray-900">
-                                <MdEmail className="text-2xl text-blue-600 dark:text-blue-400 flex-shrink-0 group-hover:scale-110 transition-transform duration-300" />
+                                <MdEmail className="text-2xl text-blue-600 dark:text-blue-400 flex-shrink-0 group-hover:scale-110 transition-transform duration-100" />
                                 <span className="font-medium break-all">{user_info.main.email}</span>
                             </a>
                             <a href={user_info.socials.linkedin} className="group flex items-center gap-4 p-5 rounded-xl bg-gradient-to-r from-blue-50 to-cyan-50 dark:from-blue-900/20 dark:to-cyan-900/20 border-2 border-blue-200 dark:border-blue-800 text-gray-700 dark:text-gray-300 hover:border-blue-500 dark:hover:border-blue-400 hover:shadow-md transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 dark:focus:ring-offset-gray-900">
-                                <FaLinkedin className="text-2xl text-blue-600 dark:text-blue-400 flex-shrink-0 group-hover:scale-110 transition-transform duration-300" />
+                                <FaLinkedin className="text-2xl text-blue-600 dark:text-blue-400 flex-shrink-0 group-hover:scale-110 transition-transform duration-100" />
                                 <span className="font-medium">Connect on Linkedin</span>
                             </a>
                         </div>
