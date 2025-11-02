@@ -1,23 +1,23 @@
 const info = {
     main: {
         name: "PALLAVI B S",
-        description: "Hello i am Pallavi BS a Computer Science Engineering passionate about Artificial Inteligence,Web Development,and Cybersecurity.I lovecreating smart and efficient solution from building AI based systems to designing responsive websites that provide smooth user experiences, I've worked on projects like Face Recognition Based Attendance System Using CNN,which deepened my interest in machine learning and image processing.During my interships in Cybersecurity and Java Programming at System Tron, I gained hands-on experience with real_world applications and team collaboration.I'm currently exporing full-stack developement and AI integration in web application, and I'm always excited to lear new technologies that make a difference. Outside of coding, I enjoy problem-solving challengs, exploring design ideas, and improving my technical skills through self-learning and online projects.",
-        role: "Java DEVELOPER",
-        photo: "../photo.jpg",
+        description: "I am a data analyst with expertise in machine learning. I have experience in extracting insights and building predictive models using various data analysis tools and machine learning frameworks. I thrive on tackling complex data challenges and continuously acquiring new skills. I am passionate about delivering high-quality, actionable insights that adhere to best practices and industry standards in data science",
+        role: "ASPIRING DATA ANALYST",
+        photo: "../Dp.jpg",
         email: "pallupallavi90779@gmail.com",
-        //tracking_id: "G-BNTTBGHXSC"
+        tracking_id: "G-BNTTBGHXSC"
     },
     resume: {
-        link: "../pallavi.pdf" // Replace with your actual resume URL
+        link: "../Pallavi__BS_Resume.pdf" // Replace with your actual resume URL
       },
     
 
     socials: {
-       // twitter: "https://x.com/srinivaspavan73",
+        twitter: "https://x.com/srinivaspavan73",
 		github: "https://github.com/pallavi123426/pallu",
 		linkedin: "https://www.linkedin.com/in/PallaviPallu",
 		instagram: "https://instagram.com/9247_pallavi",
-		facebook: "https://www.facebook.com/",
+		facebook: "https://www.facebook.com/bitra.pavan.351",
         telegram: "https://telegram.me/Pallavi_Pallu"
     },
     experience: [
@@ -86,8 +86,8 @@ const info = {
 
     projects: [
         {
-			title: "Face Recognition Based Attendance System Using CNN",
-			description: "Faceial recongnition is a biometric technology that identifiesnor verrifies a person's identify by analyzing and measuring unique feacture from a digital image or video.",
+			title: "SecureAccess Advanced Multilayer Authentication",
+			description: "A cutting-edge authentication platform that enhances security through facial and gesture recognition technologies.",
 			technologies: "https://skillicons.dev/icons?i=react,opencv,flask,tensorflow&perline=5&theme=",
 			github: "https://github.com/srinivaspavan73/Secure-Access",
             // link: "https://letterdigitshape-classification.netlify.app/"
@@ -123,13 +123,13 @@ const info = {
             school: "Kalpataru Instite of Technology",
             degree: "BE in computer science",
             // year: "2023 - Present",
-            image: "kit.jpg"
+            image: "kitlogo.jpg"
         },
         // {
         //     school: "Govt Womens polytechnic college ",
         //     degree: "Diploma",
         //     year: "2020 - 2023",
-        //     image: "gvt.png"
+        //     image: "gvtpolylogo.png"
         // },
     ],
 
