@@ -13,7 +13,7 @@ const info = {
     
 
     socials: {
-        twitter: "https://x.com/srinivaspavan73",
+        twitter: "https://x.com/Pall",
 		github: "https://github.com/pallavi123426/pallu",
 		linkedin: "https://www.linkedin.com/in/PallaviPallu",
 		instagram: "https://instagram.com/9247_pallavi",
@@ -89,7 +89,7 @@ const info = {
 			title: "SecureAccess Advanced Multilayer Authentication",
 			description: "A cutting-edge authentication platform that enhances security through facial and gesture recognition technologies.",
 			technologies: "https://skillicons.dev/icons?i=react,opencv,flask,tensorflow&perline=5&theme=",
-			github: "https://github.com/srinivaspavan73/Secure-Access",
+			github: "https://github.com/Pallavi123426/Secure-Access",
             // link: "https://letterdigitshape-classification.netlify.app/"
 		},
 
@@ -97,7 +97,7 @@ const info = {
 			title: "LandLink",
 			description: "Revolutionizing land transactions with an online marketplace for buying and selling land properties across all states seamlessly.",
 			technologies: "https://skillicons.dev/icons?i=react,firebase,0,0,0&perline=10&theme=",
-			github: "https://github.com/srinivaspavan73/Landlink",
+			github: "https://github.com/Pallavi123426/Landlink",
             // link: "https://thechatroom.netlify.app/"
 		},
 
@@ -113,7 +113,7 @@ const info = {
 			title: "WeaveQuest",
 			description: "A dedicated online platform celebrating the tradition of handloom sarees, connecting artisans and enthusiasts in a vibrant marketplace.",
 			technologies: "https://skillicons.dev/icons?i=react,firebase,0,0,0&perline=5&theme=",
-			github: "https://github.com/srinivaspavan73/Weaver-s-Loom",
+			github: "https://github.com//Weaver-s-Loom",
             link: "https://weavers-loom.netlify.app/"
 		},
     ],
