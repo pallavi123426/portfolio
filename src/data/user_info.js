@@ -1,6 +1,6 @@
 const info = {
     main: {
-        name: "PALLAVI B S",
+        name: "Pallavi B S",
         description: "Hello i am Pallavi BS a Computer Science Engineering passionate about Artificial Inteligence,Web Development,and Cybersecurity.I lovecreating smart and efficient solution from building AI based systems to designing responsive websites that provide smooth user experiences, I've worked on projects like Face Recognition Based Attendance System Using CNN,which deepened my interest in machine learning and image processing.During my interships in Cybersecurity and Java Programming at System Tron, I gained hands-on experience with real_world applications and team collaboration.I'm currently exporing full-stack developement and AI integration in web application, and I'm always excited to lear new technologies that make a difference. Outside of coding, I enjoy problem-solving challengs, exploring design ideas, and improving my technical skills through self-learning and online projects.",
         role: "Java DEVELOPER",
         photo: "../photo.jpg",
@@ -94,7 +94,7 @@ const info = {
 		},
 
 		{
-			title: "LandLink",
+			title: "",
 			description: "Revolutionizing land transactions with an online marketplace for buying and selling land properties across all states seamlessly.",
 			technologies: "https://skillicons.dev/icons?i=react,firebase,0,0,0&perline=10&theme=",
 			github: "https://github.com/srinivaspavan73/Landlink",
